@@ -1,0 +1,19 @@
+
+Microsoft DiskPart 版本 10.0.26100.1150
+
+Copyright (C) Microsoft Corporation.
+在计算机上: DESKTOP-UV7KIST
+
+DiskPart 已成功选择虚拟磁盘文件。
+
+设备类型 ID: 0 (未知)
+供应商 ID: {00000000-0000-0000-0000-000000000000} (未知)
+状态: 正在压缩
+虚拟大小: 1024 GB
+物理大小:  104 GB
+文件名: C:\Users\jcleng\AppData\Local\wsl\{ae08dae0-e82f-4489-b2e8-3af53ce51ad3}\ext4.vhdx
+为子级: 否
+父文件名: 
+关联的磁盘号: 2
+
+退出 DiskPart...

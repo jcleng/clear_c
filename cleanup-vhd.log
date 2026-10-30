@@ -1,0 +1,38 @@
+=== kill stuck diskpart === 
+成功: 已终止进程 "diskpart.exe"，其 PID 为 17180。
+=== list vdisks === 
+
+Microsoft DiskPart 版本 10.0.26100.1150
+
+Copyright (C) Microsoft Corporation.
+在计算机上: DESKTOP-UV7KIST
+
+  虚拟磁盘 ###  磁盘 ###  状态                  类型       文件
+  ------------  --------  --------------------  ---------  ----
+  虚拟磁盘 0       磁盘 2    正在压缩                  可扩展         C:\Users\jcleng\AppData\Local\wsl\{ae08dae0-e82f-4489-b2e8-3af53ce51ad3}\ext4.vhdx
+
+退出 DiskPart...
+=== detach by selecting file === 
+
+Microsoft DiskPart 版本 10.0.26100.1150
+
+Copyright (C) Microsoft Corporation.
+在计算机上: DESKTOP-UV7KIST
+
+DiskPart 已成功选择虚拟磁盘文件。
+
+虚拟磁盘服务错误:
+压缩虚拟磁盘时，无法执行请求的操作。
+
+
+退出 DiskPart...
+=== get-disk === 
+
+Number FriendlyName           OperationalStatus
+------ ------------           -----------------
+     0 MG  BG400M8  SSD 512GB Online           
+     2 Msft Virtual Disk      Online           
+     1 Generic- Multi-Card    No Media         
+
+
+

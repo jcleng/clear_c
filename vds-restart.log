@@ -1,0 +1,26 @@
+=== stop vds === 
+Virtual Disk 服务正在停止......
+系统出错。
+
+发生系统错误 1067。
+
+进程意外终止。
+
+Virtual Disk 服务已成功停止。
+
+=== start vds === 
+Virtual Disk 服务正在启动 .
+Virtual Disk 服务已经启动成功。
+
+=== list vdisk === 
+
+Microsoft DiskPart 版本 10.0.26100.1150
+
+Copyright (C) Microsoft Corporation.
+在计算机上: DESKTOP-UV7KIST
+
+  虚拟磁盘 ###  磁盘 ###  状态                  类型       文件
+  ------------  --------  --------------------  ---------  ----
+  虚拟磁盘 0       磁盘 2    未打开已连接内容              可扩展         C:\Users\jcleng\AppData\Local\wsl\{ae08dae0-e82f-4489-b2e8-3af53ce51ad3}\ext4.vhdx
+
+退出 DiskPart...
